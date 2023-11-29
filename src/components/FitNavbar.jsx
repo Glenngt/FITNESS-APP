@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const FitNavbar = () => {
   const navbarStyle = {
@@ -19,12 +19,6 @@ const FitNavbar = () => {
     fontSize: '20px', 
     transition: 'color 1.3s, font-size 0.3s', 
   };
-
-  const navigate = useNavigate();
-
-  if (!sessionStorage.getItem('id')) {
-    navigate('/');
-  }
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light" style={navbarStyle}>

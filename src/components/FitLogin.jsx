@@ -1,21 +1,25 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const FitLogin = () => {
 
     const [formData, setFormData] = useState({
-        email: '',
-        password: '',
-      });
+        "email": "",
+        "password": ""
+      })
     
+      const navigate = useNavigate()
+
       const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.target.value });
-      };
+        setFormData({ ...formData, [e.target.name]: e.target.value })
+      }
     
-      const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('Form submitted:', formData);
-      };
+      const handleSubmit = () => {
+        console.log(formData)
+        navigate("/")
+        alert("Logged In Successfully.")
+        
+      }
 
   return (
     <div>
@@ -26,7 +30,6 @@ const FitLogin = () => {
           <div className="card">
             <div className="card-body">
               <h2 className="card-title text-center mb-4">Fitness App Login</h2>
-              <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                   <label htmlFor="email" className="form-label">
                     Email
@@ -56,11 +59,10 @@ const FitLogin = () => {
                   />
                 </div>
                 <div className="d-grid">
-                  <button type="submit" className="btn btn-primary">
+                  <button onClick={handleSubmit} type="submit" className="btn btn-primary">
                     Login
                   </button>
                 </div>
-              </form>
               <div className="text-center mt-3">
                 Don't have an account? <Link to="/register">Register</Link>
               </div>

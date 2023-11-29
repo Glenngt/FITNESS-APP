@@ -34,7 +34,7 @@ const Exercises = () => {
                  "sets" : "3", 
                  "instruct": "Sit on edge of bench with feet flat on the floor. Holding dumbbell place elbow on inside of thigh, just above knee. Curl dumbbell up towards your face. Do not swing back as you lift the weight. Slowly lower the weight and repeat for desired number of reps before switching arms.",
                  "gif" : "https://fitnessprogramer.com/wp-content/uploads/2021/04/Cable-Concentration-Curl.gif"
-                },
+                }
 
 
             ]
