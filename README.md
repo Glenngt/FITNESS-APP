@@ -3,7 +3,8 @@ Created A Skeleton/Frame for the App.
 TECHNOLOGIES USED : React, HTML, CSS, BootStrap
 
 HOME PAGE : 
-![Uploading image.png…]()
+![image](https://github.com/Glenngt/FITNESS-APP/assets/124507978/ea10c508-299b-43d8-a192-9fbdd7bb4f37)
+
 
 
 HOW TO USE THE APP :
