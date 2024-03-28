@@ -3,9 +3,16 @@ Created A Skeleton/Frame for the App.
 TECHNOLOGIES USED : React, HTML, CSS, BootStrap
 
 HOME PAGE : 
+
 ![image](https://github.com/Glenngt/FITNESS-APP/assets/124507978/ea10c508-299b-43d8-a192-9fbdd7bb4f37)
 
+EXERCISES :
 
+![image](https://github.com/Glenngt/FITNESS-APP/assets/124507978/64db3bbb-fc46-471f-9973-60f878eb00e9)
+
+LOGIN :
+
+![image](https://github.com/Glenngt/FITNESS-APP/assets/124507978/8ed4f905-c567-4bac-b929-63f163fdc3e5)
 
 HOW TO USE THE APP :
 1. Create a Clone of the project by creating a "New Folder" and opening "cmd" then type :- git clone https://github.com/Glenngt/ALGOMAX_FITNESS-APP.git
